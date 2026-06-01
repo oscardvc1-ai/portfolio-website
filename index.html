@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,116 +7,235 @@
   <title>Óscar Díaz | Full Stack Developer</title>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
 
   <header class="header">
     <nav class="nav">
       <h2 class="logo">OscarDev</h2>
 
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+```
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-content">
-        <p class="subtitle">Hi, I'm</p>
-        <h1>Óscar Díaz Valero Castro</h1>
-        <h2>Full Stack Developer</h2>
-        <p>
-          I build modern, responsive and scalable web applications using frontend and backend technologies.
-        </p>
 
-        <div class="hero-buttons">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="#contact" class="btn secondary">Contact Me</a>
-        </div>
-      </div>
-    </section>
+```
+<section class="hero">
+  <div class="hero-content">
+    <p class="subtitle">Hi, I'm</p>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
+    <h1>Óscar Díaz Valero Castro</h1>
+
+    <h2>Full Stack Developer</h2>
+
+    <p>
+      I build modern, responsive and scalable web applications
+      using frontend and backend technologies.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">
+        View Projects
+      </a>
+
+      <a href="#contact" class="btn secondary">
+        Contact Me
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+
+  <p>
+    I am a Full Stack Developer focused on building clean,
+    scalable and maintainable applications.
+
+    I work with JavaScript, TypeScript, React, Angular,
+    Node.js, Express, MongoDB and REST APIs.
+
+    I also have experience developing applications with
+    Python, C and C++, applying software engineering
+    principles and modern development practices.
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h2>Tech Stack</h2>
+
+  <div class="skills-grid">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+    <span>TypeScript</span>
+    <span>React</span>
+    <span>Angular</span>
+    <span>Node.js</span>
+    <span>Express</span>
+    <span>MongoDB</span>
+    <span>Mongoose</span>
+    <span>JWT</span>
+    <span>Python</span>
+    <span>C</span>
+    <span>C++</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>REST APIs</span>
+    <span>Vercel</span>
+    <span>Render</span>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <h3>Portfolio Website</h3>
+
       <p>
-        I am a Full Stack Developer focused on building clean, scalable and 
-        maintainable applications. I work with JavaScript, TypeScript, React, Angular, Node.js, 
-        MongoDB and REST APIs. I also have experience with Python, C and C++ development.
+        Personal portfolio built with HTML, CSS and JavaScript.
       </p>
-    </section>
 
-    <section id="skills" class="section">
-      <h2>Tech Stack</h2>
+      <a
+        href="https://oscardvc1-ai.github.io/portfolio-website/"
+        target="_blank"
+      >
+        Live Demo
+      </a>
+    </article>
 
-      <div class="skills-grid">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>TypeScript</span>
-        <span>React</span>
-        <span>Angular</span>
-        <span>Node.js</span>
-        <span>Express</span>
-        <span>MongoDB</span>
-        <span>Python</span>
-        <span>C</span>
-        <span>C++</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>REST APIs</span>
-      </div>
-    </section>
+    <article class="project-card">
+      <h3>React Task Manager</h3>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
+      <p>
+        Task management application built with React,
+        Hooks, LocalStorage and responsive design.
+      </p>
 
-      <div class="projects-grid">
-        <article class="project-card">
-          <h3>Portfolio Website</h3>
-          <p>Personal portfolio built with HTML, CSS and JavaScript.</p>
-          <a href="#">View project</a>
-        </article>
+      <a
+        href="https://react-task-manager-phi-two.vercel.app/"
+        target="_blank"
+      >
+        Live Demo
+      </a>
 
-        <article class="project-card">
-          <h3>React Task Manager</h3>
-          <p>Task management application built with React, Hooks, LocalStorage and responsive design.</p>
-          <a href="https://react-task-manager-phi-two.vercel.app/" target="_blank">Live Demo</a>
-        </article>
+      <br /><br />
 
-        <article class="project-card">
-          <h3>Task Manager REST API</h3>
-          <p>REST API built with Node.js, Express, MongoDB Atlas and Mongoose.
-             Supports CRUD operations for task management.
-          </p>
+      <a
+        href="https://github.com/oscardvc1-ai/react-task-manager"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </article>
 
-          <a href="https://github.com/oscardvc1-ai/task-manager-api" target="_blank">
-            View Repository
-          </a>
-        </article>
+    <article class="project-card">
+      <h3>Task Manager REST API</h3>
 
-        <article class="project-card">
-          <h3>Full Stack Task Manager</h3>
-          <p>Full Stack task management application built with React,
-            Node.js, Express, MongoDB Atlas, Render and Vercel.
-          </p>
+      <p>
+        REST API built with Node.js, Express,
+        MongoDB Atlas and Mongoose.
+        Supports CRUD operations for task management.
+      </p>
 
-          <a href="https://fullstack-task-manager-puce.vercel.app" target="_blank" >
-            Live Demo
-          </a>
-        </article>
-      </div>
-    </section>
+      <a
+        href="https://github.com/oscardvc1-ai/task-manager-api"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </article>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: oscardvc1@gmail.com</p>
-      <p>GitHub: github.com/oscardvc1-ai</p>
-    </section>
+    <article class="project-card">
+      <h3>Full Stack Task Manager</h3>
+
+      <p>
+        Full Stack task management application built
+        with React, Node.js, Express, MongoDB Atlas,
+        Render and Vercel.
+      </p>
+
+      <a
+        href="https://fullstack-task-manager-puce.vercel.app"
+        target="_blank"
+      >
+        Live Demo
+      </a>
+
+      <br /><br />
+
+      <a
+        href="https://github.com/oscardvc1-ai/fullstack-task-manager"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </article>
+
+    <article class="project-card">
+      <h3>Authentication System JWT</h3>
+
+      <p>
+        Full Stack authentication system built with
+        React, Node.js, Express, MongoDB Atlas and JWT.
+
+        Features include registration, login,
+        protected routes, user profile management
+        and secure token-based authentication.
+      </p>
+
+      <a
+        href="https://auth-system-jwt.vercel.app/"
+        target="_blank"
+      >
+        Live Demo
+      </a>
+
+      <br /><br />
+
+      <a
+        href="https://github.com/oscardvc1-ai/auth-system-jwt"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+
+  <p>Email: oscardvc1@gmail.com</p>
+
+  <p>
+    GitHub:
+    <a
+      href="https://github.com/oscardvc1-ai"
+      target="_blank"
+    >
+      github.com/oscardvc1-ai
+    </a>
+  </p>
+</section>
+```
+
   </main>
 
   <script src="./js/main.js"></script>
+
 </body>
 </html>
